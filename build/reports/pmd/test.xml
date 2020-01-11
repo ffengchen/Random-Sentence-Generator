@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.8.0" timestamp="2019-11-18T14:47:30.020">
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment7/src/test/java/MainTest.java">
+<violation beginline="13" endline="46" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="MainTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="13" endline="46" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" class="MainTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="16" endline="35" begincolumn="10" endcolumn="3" rule="JUnitTestsShouldIncludeAssert" ruleset="Best Practices" class="MainTest" method="mainA" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#junittestsshouldincludeassert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+<violation beginline="17" endline="18" begincolumn="5" endcolumn="24" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="MainTest" method="mainA" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'args' (lines '17'-'18').
+</violation>
+<violation beginline="19" endline="29" begincolumn="5" endcolumn="12" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="MainTest" method="mainA" variable="inputMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'inputMessage' could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="5" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="MainTest" method="mainA" variable="grammarFolder" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'grammarFolder' could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="MainTest" method="mainA" variable="grammarFiles" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'grammarFiles' could be declared final
+</violation>
+<violation beginline="41" endline="42" begincolumn="5" endcolumn="19" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="MainTest" method="mainB" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'args' (lines '41'-'42').
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment7/src/test/java/ParserHelperTest.java">
+<violation beginline="10" endline="44" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="ParserHelperTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="10" endline="44" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" class="ParserHelperTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="13" endline="21" begincolumn="10" endcolumn="3" rule="LinguisticNaming" ruleset="Code Style" class="ParserHelperTest" method="getGrammar" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#linguisticnaming" priority="3">
+Linguistics Antipattern - The getter 'getGrammar' should not return void linguistically
+</violation>
+<violation beginline="18" endline="18" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Best Practices" class="ParserHelperTest" method="getGrammar" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="27" endline="27" begincolumn="7" endcolumn="49" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ParserHelperTest" method="parseA" variable="str" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'str' could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Best Practices" class="ParserHelperTest" method="parseA" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="38" endline="38" begincolumn="7" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ParserHelperTest" method="parseB" variable="str" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'str' could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Best Practices" class="ParserHelperTest" method="parseB" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+</pmd>

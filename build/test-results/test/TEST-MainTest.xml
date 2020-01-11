@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-11-18T22:47:28" hostname="ChendeMacBook-Pro.local" time="0.022">
+  <properties/>
+  <testcase name="mainA" classname="MainTest" time="0.021"/>
+  <testcase name="mainB" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[The following grammars are available:
+1: insult_grammar
+2: poem
+3: term_paper_grammar
+Which would you like to use? (q to quit)
+Please enter a valid option!
+The following grammars are available:
+1: insult_grammar
+2: poem
+3: term_paper_grammar
+Which would you like to use? (q to quit)
+Please enter a valid option!
+The following grammars are available:
+1: insult_grammar
+2: poem
+3: term_paper_grammar
+Which would you like to use? (q to quit)
+You are so friendless that even a fuckwad would not want to smooch you .
+Would you like another? (y/n)
+You good-for-nothing , leaf clippings for brains .
+Would you like another? (y/n)
+The following grammars are available:
+1: insult_grammar
+2: poem
+3: term_paper_grammar
+Which would you like to use? (q to quit)
+The waves sigh warily tonight.
+Would you like another? (y/n)
+The following grammars are available:
+1: insult_grammar
+2: poem
+3: term_paper_grammar
+Which would you like to use? (q to quit)
+<conclusion> is not defined
+Would you like another? (y/n)
+The following grammars are available:
+1: insult_grammar
+2: poem
+3: term_paper_grammar
+Which would you like to use? (q to quit)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
